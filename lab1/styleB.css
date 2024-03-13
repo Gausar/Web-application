@@ -1,0 +1,48 @@
+.box1, .box2, .box3{
+    width: 100px;
+    height: 150px;
+    font-size: 40px;
+    font-family: Tahoma;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+}
+.box1:hover, .box2:hover, .box3:hover{
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.container{
+    display: flex;
+    margin-right: 10px;
+    max-height: 100vh;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.box3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+body{
+    display : flex;
+    height: 100vh;
+    flex-direction: row;
+    margin: 0;
+    border-top: 3px solid #42250b;
+    border-left: 3px solid #42250b;
+    border-right: 3px inset #42250b;
+    border-bottom: 3px inset #42250b;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    box-sizing: border-box;
+}

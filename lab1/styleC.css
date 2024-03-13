@@ -1,0 +1,69 @@
+.box1, .box2, .box3{
+    width: 100px;
+    height: 150px;
+    font-size: 40px;
+    font-family: Tahoma;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #eeeff2, #b8c0d8);
+    box-sizing: border-box;
+}
+.box1, .box2{
+    
+    /* @keyframes duration | easing-function | delay |
+    iteration-count | direction | fill-mode | play-state | name */
+    /*animation: 3s ease-in 1s 5 reverse both running slidein; */
+    animation-name: slidein;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+.box1:hover, .box2:hover, .box3:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.container{
+    margin-left: 100px;
+    display: flex;
+    margin-right: 10px;
+}
+.box3 {
+    /*animation: 3s ease-out 1s unset alternate both running slidetop;*/
+    animation-name: slidein;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+@keyframes slidein {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+body{
+    height: 100%;
+    border-top: 1px solid #42250b;
+    border-left: 1px solid #42250b;
+    border-right: 1px solid #42250b;
+    border-bottom: 1px solid #42250b;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
