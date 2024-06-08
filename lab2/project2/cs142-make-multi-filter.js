@@ -1,7 +1,7 @@
 "use strict";
 
 function cs142MakeMultiFilter(originalArray){
-   let currentArray = originalArray.slice();
+   let currentArray = originalArray;
    function arrayFilterer(filterCriteria, callback){
         if(typeof filterCriteria !== "function"){
             return currentArray;
@@ -14,6 +14,3 @@ function cs142MakeMultiFilter(originalArray){
     }
     return arrayFilterer;
 }
-
-
-

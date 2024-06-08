@@ -1,0 +1,29 @@
+#datepicker1, #datepicker2{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    background-color: #2f3c32;
+    color: white;
+}
+table{
+    width: 350px;
+    height: 300px; 
+    text-align: center;
+    font-family: Tahoma;
+}
+td{
+    border: white solid 1px;
+}
+#leftArrow, #rightArrow{
+    cursor: pointer;
+    border: none;
+}
+#otherMonth{
+    color: gray;
+}
+#currentMonth{
+    cursor: pointer;
+}
+#currentMonth:hover {
+    background-color: #386d96;
+}

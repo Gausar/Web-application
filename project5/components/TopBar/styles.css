@@ -1,0 +1,14 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: "center";
+}
+.userLogo{
+  width: 45px;
+  height: 40px;
+  margin-right: 20px;
+}
+.signLogo{
+  width: 45px;
+  height: 40px;
+  padding-left: 20px;
+}

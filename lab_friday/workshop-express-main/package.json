@@ -1,0 +1,22 @@
+{
+  "name": "workshop-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/tsoomo/workshop-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tsoomo/workshop-express/issues"
+  },
+  "homepage": "https://gitlab.com/tsoomo/workshop-express#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

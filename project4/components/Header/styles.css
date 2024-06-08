@@ -1,0 +1,30 @@
+.header-container {
+    background-color: rgb(191, 228, 222);
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  .header-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .header-container p {
+    font-size: 16px;
+    color: #666;
+  }
+  .logo, .logo1{
+    width: 240px;
+    height: 120px;
+    position: absolute;
+  }
+  .logo{
+    right: 0;
+  }
+  .logo1{
+    left: 0;
+  }

@@ -1,0 +1,25 @@
+.name{
+    font-family: 'Times New Roman';
+}
+.details{
+    border: groove black 1px;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;  
+}
+.topic{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+.view{
+    width: 30px;
+    height: 30px;
+    padding-right: 8px;
+}

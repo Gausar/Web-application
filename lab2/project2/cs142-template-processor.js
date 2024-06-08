@@ -3,7 +3,7 @@ function Cs142TemplateProcessor(template){
     this.template = template;
 }
 
-Cs142TemplateProcessor.prototype.fillIn = function(dictionary){
+Cs142TemplateProcessor.fillIn = function(dictionary){
     let filledTemplate = this.template;
     Object.keys(dictionary).forEach(key => {
         const pattern = new RegExp("{{" + key + "}}", "g");
@@ -12,4 +12,3 @@ Cs142TemplateProcessor.prototype.fillIn = function(dictionary){
     filledTemplate = filledTemplate.replace(/\{\{[^]+\}\}/g, '');
     return filledTemplate;
 };
-

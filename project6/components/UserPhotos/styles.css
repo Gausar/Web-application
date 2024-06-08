@@ -1,0 +1,17 @@
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cardMedia{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+.subtitle1{
+    color: blue;
+}

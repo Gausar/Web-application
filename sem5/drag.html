@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>draggable rectangle</title>
+    <style type="text/css">
+        #div1 {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+<div id="div1" onmousedown="mouseDown(event);"
+    onmousemove="mouseMove(event);"
+    onmouseup="mouseUp(event);">Drag Me!</div>
+</body>
+<script>
+    var isMouseDown = false; // Dragging?
+    var prevX, prevY;
+    function mouseDown(event) {
+     prevX = event.pageX;
+     prevY = event.pageY;
+     isMouseDown = true;
+    }
+    function mouseUp(event) {
+     isMouseDown = false;
+    }
+    function mouseMove(event) {
+        if (!isMouseDown) {
+        return;
+        }
+        var elem = document.getElementById("div1");
+        elem.style.left = (elem.offsetLeft +(event.pageX - prevX)) + "px";
+        elem.style.top = (elem.offsetTop +(event.pageY - prevY)) + "px";
+        prevX = event.pageX;
+        prevY = event.pageY;
+    }
+    </script>
+</html>

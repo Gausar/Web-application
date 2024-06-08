@@ -1,0 +1,18 @@
+[
+    {
+        "courseName" : "Algorithm",
+        "credit": "3"
+    },
+    {
+        "courseName" : "Programming Langauge",
+        "credit": "3"
+    },
+    {
+        "courseName" : "Operating System",
+        "credit": "3"
+    },
+    {
+        "courseName" : "Web applications",
+        "credit": "3"
+    }
+]

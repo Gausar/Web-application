@@ -1,0 +1,22 @@
+.add-photo-modal {
+    padding: 16px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20vh;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-photo-modal input[type="file"] {
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  .add-photo-modal button {
+    margin-top: 8px;
+  }
+  
